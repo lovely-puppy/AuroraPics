@@ -108,6 +108,12 @@
             <artifactId>disruptor</artifactId>
             <version>3.4.2</version>
         </dependency>
+        <!-- 引入火山引擎的 DeepSeek R1 模型 -->
+        <dependency>
+            <groupId>com.volcengine</groupId>
+            <artifactId>volcengine-java-sdk-ark-runtime</artifactId>
+            <version>LATEST</version>
+        </dependency>
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
@@ -161,7 +167,6 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.wws.imageplatformback.ImagePlatformBackApplication</mainClass>
-                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>

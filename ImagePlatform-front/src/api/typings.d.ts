@@ -11,6 +11,12 @@ declare namespace API {
     message?: string
   }
 
+  type BaseResponseDeepSeekResultResponse_ = {
+    code?: number
+    data?: DeepSeekResultResponse
+    message?: string
+  }
+
   type BaseResponseGetOutPaintingTaskResponse_ = {
     code?: number
     data?: GetOutPaintingTaskResponse
@@ -189,6 +195,15 @@ declare namespace API {
   type CreatePictureOutPaintingTaskRequest = {
     parameters?: Parameters
     pictureId?: number
+  }
+
+  type DeepSeekResultRequest = {
+    searchText?: string
+  }
+
+  type DeepSeekResultResponse = {
+    content?: string
+    reasoningContent?: string
   }
 
   type DeleteRequest = {

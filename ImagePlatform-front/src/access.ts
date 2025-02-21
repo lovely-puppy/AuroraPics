@@ -26,11 +26,17 @@ router.beforeEach(async (to, from, next) => {
       return
     }
   }
-  if (toURL.startsWith('/picture')) {
+  if (toURL.startsWith('/add_picture')) {
     if (loginUser.userName === '未登录') {
       message.warning('请先登录').then((r) => console.log(r))
       next(`/user/login?redirect=${to.fullPath}`)
       return
+    }
+  }
+  if (toURL.startsWith('/deepseek')) {
+    if (loginUser.userName === '未登录') {
+      message.warning('请先登录').then((r) => console.log(r))
+      next(`/user/login?redirect=${to.fullPath}`)
     }
   }
   next() //放行

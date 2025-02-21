@@ -99,6 +99,11 @@ const originItems = [
     title: '空间管理',
   },
   {
+    key: '/deepseek',
+    label: 'AI 搜索',
+    title: 'AI 搜索',
+  },
+  {
     key: '/support',
     label: '支持作者',
     title: '支持作者',
@@ -109,12 +114,12 @@ const originItems = [
 const filterMenus = (menus = [] as MenuProps['items']) => {
   return menus?.filter((menu) => {
     // 只有登录用户才能看到 /add_picture 页面
-    if (menu?.key?.startsWith('/add_picture')) {
-      const loginUser = loginUserStore.loginUser
-      if (!loginUser.id || !loginUser.userAccount) {
-        return false
-      }
-    }
+    // if (menu?.key?.startsWith('/add_picture')) {
+    //   const loginUser = loginUserStore.loginUser
+    //   if (!loginUser.id || !loginUser.userAccount) {
+    //     return false
+    //   }
+    // }
     // 管理员才能看到 /admin 开头的菜单
     if (menu?.key?.startsWith('/admin')) {
       const loginUser = loginUserStore.loginUser
