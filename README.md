@@ -131,3 +131,7 @@
 ![image-20250220192437260](https://raw.githubusercontent.com/lovely-puppy/PicBed/master/img/20250221003515008.png)
 
 ![image-20250220192528727](https://raw.githubusercontent.com/lovely-puppy/PicBed/master/img/20250221003854754.png)
+
+- ###### 接入 Deepseek R1 模型，支持 AI 问答功能
+
+![image-20250221191735382](https://raw.githubusercontent.com/lovely-puppy/PicBed/master/img/20250221191742545.png)
