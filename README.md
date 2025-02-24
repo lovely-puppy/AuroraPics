@@ -1,5 +1,9 @@
 # 项目基本功能介绍
 
+- ###### 接入 Deepseek R1 模型，支持 AI 问答功能
+
+![image-20250221191735382](https://raw.githubusercontent.com/lovely-puppy/PicBed/master/img/20250221191742545.png)
+
 - ###### 用户注册：实现了数据校验、账号查重、数据加密、数据插入
 
 ![image-20250220170206656](https://raw.githubusercontent.com/lovely-puppy/PicBed/master/img/20250221002156754.png)
@@ -131,7 +135,3 @@
 ![image-20250220192437260](https://raw.githubusercontent.com/lovely-puppy/PicBed/master/img/20250221003515008.png)
 
 ![image-20250220192528727](https://raw.githubusercontent.com/lovely-puppy/PicBed/master/img/20250221003854754.png)
-
-- ###### 接入 Deepseek R1 模型，支持 AI 问答功能
-
-![image-20250221191735382](https://raw.githubusercontent.com/lovely-puppy/PicBed/master/img/20250221191742545.png)
